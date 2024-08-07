@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.card-h4 {
+  @apply text-[17px] font-medium text-secondary mt-7;
+}
+.card-p {
+  @apply text-[15px] font-normal text-[#343D48] mt-4 text-center;
+}
+.card-a {
+  @apply text-primary font-medium text-[15px] mt-5;
+}
+.card2-h1 {
+  @apply text-primary text-[40px];
+}
+card2-p {
+  @apply text-secondary text-lg;
+}
