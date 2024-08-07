@@ -41,7 +41,7 @@
 
           <!-- parent-2 -->
           <div class="flex gap-8 items-center">
-            <div class="flex gap-3 text-[secondary] font-semibold">
+            <div class="flex gap-3 text-secondary font-semibold">
               <div><img src="images/lock.png" alt="lock" /></div>
               <span>Login</span>
             </div>
@@ -54,21 +54,37 @@
       <!-- navigation bar -->
 
       <!-- banner area -->
-      <div class="h-16 border-2 border-red-500 mx-auto mt-40">
+      <div class="max-w-5xl mx-auto mt-40">
         <div class="flex items-center gap-14 justify-between">
           <!-- parent-1 -->
-          <div class="max-w-[570px]">
-            <h2><span>Tailwind CSS</span>Course Instructor</h2>
-            <h1>Shahjalal Rafi</h1>
-            <span>Founder, Code ABC</span>
-            <button>Get Token</button>
-            <div>
-              <p>White paper</p>
-              <img src="images/play.png" alt="" />
+          <div class="max-w-[570px] flex flex-col gap-6">
+            <h2
+              class="text-[#1A1A1A] text-[52px] font-bold hover:underline underline-offset-3 decoration-primary decoration-2"
+            >
+              <span class="text-primary">Tailwind CSS</span> Course Instructor
+            </h2>
+            <div
+              class="hover:underline underline-offset-3 decoration-primary decoration-2"
+            >
+              <h1 class="text-6xl font-bold text-Tertiary">Shahjalal Rafi</h1>
+              <span class="text-xl font-bold text-secondary"
+                >Founder, Code ABC</span
+              >
+            </div>
+            <div class="flex gap-8">
+              <div class="bg-Tertiary px-8 py-3 rounded-lg">
+                <button class="text-white font-bold uppercase">
+                  Get Token
+                </button>
+              </div>
+              <div class="flex items-center gap-3">
+                <p class="text-[#161718] uppercase font-bold">White paper</p>
+                <img src="images/play.png" alt="" />
+              </div>
             </div>
           </div>
           <!-- parent-2 -->
-          <div class="border-2 border-red-600">
+          <div>
             <img src="images/ShahjalalRafi.png" alt="ShahjalalRafi" />
           </div>
         </div>
